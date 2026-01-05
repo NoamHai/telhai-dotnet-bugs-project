@@ -1,0 +1,20 @@
+﻿<Window x:Class="TelHai.CS.DotNet.GalHelner_NoamHai.HW5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TelHai.CS.DotNet.GalHelner_NoamHai.HW5"
+        mc:Ignorable="d"
+        Title="Bugs Management App" Height="450" Width="800" Background="AliceBlue">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel Orientation="Vertical">
+            <Label FontSize="30" Margin="0,0,0,0" Content="Bugs Management App"></Label>
+            <Label HorizontalAlignment="Center" FontSize="18" Margin="0,0,0,30" Content="Created By: Gal Helner and Noam Hai"></Label>
+            <StackPanel Orientation="Horizontal">
+                <Button Name="BtnOpenBugsWindow" Content="Manage Bugs" Width="150" Height="30" Margin="0,0,20,0" Click="BtnOpenBugsWindow_Click"></Button>
+                <Button Name="BtnOpenCategoriesWindow" Content="Manage Categories" Width="150" Height="30" Click="BtnOpenCategoriesWindow_Click"></Button>
+            </StackPanel>
+            <Button Name="BtnWriteCompositeToFile" Content="Write Composite To File" Width="170" Height="30" Margin="0,20,0,0" Click="BtnWriteCompositeToFile_Click"></Button>
+        </StackPanel>
+    </Grid>
+</Window>
